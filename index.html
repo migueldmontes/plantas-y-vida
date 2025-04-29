@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plantas y Vida</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    header img {
+      height: 50px;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+    .proyecto-img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- CABECERA -->
+  <header class="d-flex justify-content-between align-items-center p-3 bg-light border-bottom">
+    <div class="d-flex align-items-center">
+      <img src="https://via.placeholder.com/50" alt="Logo">
+      <h1 class="ms-3 fs-4">Plantas y Vida</h1>
+    </div>
+    <nav>
+      <a href="index.html" class="btn btn-outline-success me-2">Inicio</a>
+      <a href="pedidos.html" class="btn btn-outline-success me-2">Pedidos</a>
+      <a href="contacto.html" class="btn btn-outline-success">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- PÁGINA PRINCIPAL -->
+  <main class="container mt-5">
+    <!-- ¿QUIÉNES SOMOS? -->
+    <section id="quienes-somos">
+      <h2>¿Quiénes somos?</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <p>Somos una empresa dedicada a la venta de plantas decorativas y servicios florales desde hace más de 10 años.</p>
+        </div>
+        <div class="col-md-4">
+          <p>Ofrecemos soluciones ecológicas para decorar espacios urbanos y rurales.</p>
+        </div>
+        <div class="col-md-4">
+          <p>Nuestro equipo está formado por profesionales apasionados por la botánica y el diseño natural.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUESTROS PROYECTOS -->
+    <section id="proyectos" class="mt-5">
+      <h2>Nuestros proyectos</h2>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <img src="https://via.placeholder.com/300x200" alt="Jardín" class="proyecto-img">
+        </div>
+        <div class="col-md-8">
+          <h4>Jardines personalizados</h4>
+          <p>Diseñamos y mantenemos jardines únicos adaptados a cada espacio y necesidad.</p>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <img src="https://via.placeholder.com/300x200" alt="Entrada floral" class="proyecto-img">
+        </div>
+        <div class="col-md-8">
+          <h4>Entradas florales</h4>
+          <p>Creamos entradas impactantes con flores y plantas para hogares y negocios.</p>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <img src="https://via.placeholder.com/300x200" alt="Decoraciones" class="proyecto-img">
+        </div>
+        <div class="col-md-8">
+          <h4>Decoraciones florales</h4>
+          <p>Proyectos de decoración con plantas naturales para eventos, interiores y exteriores.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="text-center">
+    <p>Contacto: info@plantasyvida.com | Tel: 123 456 789</p>
+    <a href="#" class="btn btn-link">Volver arriba</a>
+  </footer>
+</body>
+</html>
+
+<!-- contacto.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Plantas y Vida</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="d-flex justify-content-between align-items-center p-3 bg-light border-bottom">
+    <div class="d-flex align-items-center">
+      <img src="https://via.placeholder.com/50" alt="Logo">
+      <h1 class="ms-3 fs-4">Plantas y Vida</h1>
+    </div>
+    <nav>
+      <a href="index.html" class="btn btn-outline-success me-2">Inicio</a>
+      <a href="pedidos.html" class="btn btn-outline-success me-2">Pedidos</a>
+      <a href="contacto.html" class="btn btn-outline-success">Contacto</a>
+    </nav>
+  </header>
+  <main class="container mt-5">
+    <h2>Contacto</h2>
+    <p>Si deseas más información sobre nuestros servicios o tienes cualquier consulta, por favor contáctanos a través del siguiente formulario:</p>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="apellidos" class="form-label">Apellidos</label>
+        <input type="text" class="form-control" id="apellidos" required>
+      </div>
+      <div class="mb-3">
+        <label for="asunto" class="form-label">Asunto</label>
+        <input type="text" class="form-control" id="asunto" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+  </main>
+  <footer class="text-center mt-5">
+    <p>Contacto: info@plantasyvida.com | Tel: 123 456 789</p>
+    <a href="#" class="btn btn-link">Volver arriba</a>
+  </footer>
+</body>
+</html>
+
+<!-- pedidos.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedidos - Plantas y Vida</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="d-flex justify-content-between align-items-center p-3 bg-light border-bottom">
+    <div class="d-flex align-items-center">
+      <img src="https://via.placeholder.com/50" alt="Logo">
+      <h1 class="ms-3 fs-4">Plantas y Vida</h1>
+    </div>
+    <nav>
+      <a href="index.html" class="btn btn-outline-success me-2">Inicio</a>
+      <a href="pedidos.html" class="btn btn-outline-success me-2">Pedidos</a>
+      <a href="contacto.html" class="btn btn-outline-success">Contacto</a>
+    </nav>
+  </header>
+  <main class="container mt-5">
+    <h2>Formulario de Pedido</h2>
+    <p>Solicita tu proyecto floral con nosotros rellenando este formulario:</p>
+    <form>
+      <div class="mb-3">
+        <label for="empresa" class="form-label">Nombre de la empresa solicitante</label>
+        <input type="text" class="form-control" id="empresa" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email del solicitante</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="tipoPedido" class="form-label">Clase de pedido</label>
+        <select class="form-select" id="tipoPedido">
+          <option>Jardín para eventos</option>
+          <option>Decoración de iglesias</option>
+          <option>Ramos personalizados</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="color" class="form-label">Color preferido</label>
+        <input type="color" class="form-control form-control-color" id="color" value="#00ff00">
+      </div>
+      <div class="mb-3">
+        <label for="presupuesto" class="form-label">Presupuesto (€)</label>
+        <input type="number" class="form-control" id="presupuesto" required>
+      </div>
+      <div class="mb-3">
+        <label for="observaciones" class="form-label">Observaciones</label>
+        <textarea class="form-control" id="observaciones" rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Enviar</button>
+      <button type="reset" class="btn btn-secondary">Limpiar formulario</button>
+    </form>
+  </main>
+  <footer class="text-center mt-5">
+    <p>Contacto: info@plantasyvida.com | Tel: 123 456 789</p>
+    <a href="#" class="btn btn-link">Volver arriba</a>
+  </footer>
+</body>
+</html>
